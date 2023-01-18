@@ -9,11 +9,27 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*
-* ======================================================= */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #404a74; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f152e; 
+}
+
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
@@ -83,17 +99,17 @@ figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #ff9000;
+  background: #1C2340;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #ff9000;
+  background: #1C2340;
 }
 
 ::selection {
   color: #fff;
-  background: #ff9000;
+  background: #1C2340;
 }
 
 #fh5co-header,
@@ -112,7 +128,8 @@ figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: #1C2340;
+  opacity: 80%;
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -322,7 +339,7 @@ figure {
 
 .fh5co-bg-dark {
   background: #2f3c4f;
-  background: #ff9000;
+  background: #1C2340;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -379,7 +396,7 @@ figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #ff9000;
+  color: #1C2340;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -547,7 +564,7 @@ figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #ff9000;
+  background-color: #1C2340;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -631,6 +648,7 @@ figure {
     left: 15px;
     margin-left: 0;
     top: 16px;
+    background-color: #1C2340;
   }
 
   ul.timeline > li > .timeline-panel {
@@ -690,7 +708,7 @@ figure {
   background-color: #c0392b !important;
 }
 .progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
+  background-color: #ff9000 !important;
 }
 .progress-bar.progress-bar-4 {
   background-color: #8e44ad !important;
@@ -1300,7 +1318,7 @@ input[type="text"] {
 .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #ff9000;
+  border-color: #1C2340;
 }
 
 .row-pb-md {
