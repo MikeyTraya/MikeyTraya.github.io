@@ -527,7 +527,7 @@ h1,
 
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h3,
@@ -952,9 +952,17 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
+
+@media (min-width: 768px) {
+  .row {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+}
+
 .row:before,
 .row:after {
   content: " ";
